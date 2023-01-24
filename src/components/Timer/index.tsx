@@ -1,5 +1,5 @@
+import { useEffect, useState } from "react";
 import { ITask } from "../../types/ITask";
-import { useState } from "react";
 import Button from "../Button";
 import Clock from "./Clock";
 
@@ -15,15 +15,15 @@ function Timer ({selected} : TimerProps) {
 
     const [time, setTime] = useState<number>();
 
-    if(selected?.time){
-        setTime(calcTime(selected?.time));
-    }
+    useEffect(() => {
+        if(selected?.time){ setTime(calcTime(selected.time)); }
+    }, [selected]);
     
     return (
         <div className={style.timer}>
             <p className={style.title}>Escolha um card e inicie a contagem</p>
             <div className={style.clockWrapper}>
-                <Clock />
+                <Clock time={time}/>
             </div>
             <Button>
                 Start
