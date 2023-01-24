@@ -26,11 +26,10 @@ The timer was made with
 # Color pallet
 
 - Buttons
-- <img src="https://user-images.githubusercontent.com/39069174/214444032-ec31ba87-d6ec-4f6f-9c65-50a931fe097a.svg" width="48" heigth="100">
+- <img src="https://user-images.githubusercontent.com/39069174/214444032-ec31ba87-d6ec-4f6f-9c65-50a931fe097a.svg" width="60">
 - Containers
+- <img src="https://user-images.githubusercontent.com/39069174/214445202-70c3859c-6c17-4e86-9d90-da3cac986c4d.svg" width="60">
 - Timer
+- <img src="https://user-images.githubusercontent.com/39069174/214445472-4f224aae-b718-4621-aa65-56f6fa0c4c66.svg" width="60">
 - Tasks
-
-![palette](https://user-images.githubusercontent.com/39069174/214444778-d3410a79-fcf7-4543-9f1e-a31d6e68e01a.png)
-
-
+- <img src="https://user-images.githubusercontent.com/39069174/214445472-4f224aae-b718-4621-aa65-56f6fa0c4c66.svg" width="60">
