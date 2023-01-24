@@ -17,8 +17,13 @@ function Item(
 
     return (
         <li 
-            className={`${style.item} ${selected ? style.selectedItem : ''}`}
-            onClick={() => selectTask(
+            className={`
+                ${style.item} 
+                ${selected ? style.selectedItem : ''} 
+                ${completed ? style.completedItem: ''}
+            `}
+
+            onClick={() => !completed && selectTask(
                 {
                     //ESSE CARA É O ITEM QUE TA SENDO RENDERIZADO NO MAP
                     //BASICAMENTE, CADA UM VAI TER ESSES DADOS, QUANDO ELE FOR CLICADO, A FUNÇÃO É CHAMADA, PASSANDO DE VOLTA ATÉ O APP
@@ -32,7 +37,8 @@ function Item(
             )}
         >
             <h3>{task}</h3>
-            <span>{time}</span>    
+            <span>{time}</span>
+            {completed && <span className={style.completed} aria-label='completedTask'></span>}    
         </li>
     )
 }
