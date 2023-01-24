@@ -25,8 +25,7 @@ The timer was made with
 
 # Color pallet
 
-- Buttons
-- -  ### `#2c2c2c #806ddf`
+- Buttons ![palette](https://user-images.githubusercontent.com/39069174/214443957-a5510f98-3737-41a0-a305-01bb05e229e9.png)
 - Containers
 - Timer
 - Tasks
