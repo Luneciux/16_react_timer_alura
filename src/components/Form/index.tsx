@@ -48,7 +48,7 @@ function Form ({ setTasks } : FormProps) {
                     placeholder="Some task"
                     value={task}
                     required
-                    onChange={e => setTask(e.target.value)}
+                    onChange={e => setTask(e.target.value) }
                 />
             </div>
             <div className={style.inputContainer}>

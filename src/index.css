@@ -59,14 +59,15 @@ button {
 	color: inherit; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500&display=swap');
 
 body {
 	display: flex;
 	justify-content: center;
 	font-family: 'Roboto', sans-serif;
-	color: #F0F0F0;
-	background-color: #4C4C4C;
+	font-weight: 500;
+	color: #3a3a3a;
+	background-color: #1b1b1b;
 	height: 100%;
 	width: 100%;
 	padding: 16px;

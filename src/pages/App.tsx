@@ -40,22 +40,24 @@ function App() {
   }
 
   return (
-    <div className={style.AppStyle}>
+    <div className={style.AppResizer}> 
+      <div className={style.AppStyle}>
 
-      <Form 
-        setTasks={setTasks}
-      />
+        <Form 
+          setTasks={setTasks}
+        />
 
-      <List 
-        tasks={tasks}
-        selectTask={selectTask}
-      />
+        <List 
+          tasks={tasks}
+          selectTask={selectTask}
+        />
 
-      <Timer 
-        selected={selected}
-        closeTask={closeTask}
-      />
+        <Timer 
+          selected={selected}
+          closeTask={closeTask}
+        />
 
+      </div>
     </div>
   );
 }

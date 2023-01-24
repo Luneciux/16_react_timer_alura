@@ -33,7 +33,7 @@ function Timer ({selected, closeTask} : TimerProps) {
     
     return (
         <div className={style.timer}>
-            <p className={style.title}>Escolha um card e inicie a contagem</p>
+            <p className={style.title}></p>
             <div className={style.clockWrapper}>
                 <Clock time={time}/>
             </div>
