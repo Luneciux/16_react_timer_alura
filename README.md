@@ -16,7 +16,7 @@ To get the dependencies
 
 To start the application in the localhost:3000
 
-# Tecnologies
+# Technologies
 
 The timer was made with
 - React and Typescript
@@ -26,7 +26,7 @@ The timer was made with
 # Color pallet
 
 - Buttons
-- -  
+- -  ### `npm start`
 - Containers
 - Timer
 - Tasks
