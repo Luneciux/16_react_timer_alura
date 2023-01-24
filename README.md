@@ -26,7 +26,7 @@ The timer was made with
 # Color pallet
 
 - Buttons
-- -  ### `npm start`
+- -  ### `#2c2c2c #806ddf`
 - Containers
 - Timer
 - Tasks
