@@ -1,5 +1,5 @@
 import { ITask } from '../../../types/ITask';
-import style from './Item.module.scss';
+import styles from './Item.module.scss';
 
 interface ItemProps extends ITask {
     selectTask: (selectedTask: ITask) => void
@@ -18,9 +18,9 @@ function Item(
     return (
         <li 
             className={`
-                ${style.item} 
-                ${selected ? style.selectedItem : ''} 
-                ${completed ? style.completedItem: ''}
+                ${styles.item} 
+                ${selected ? styles.selectedItem : ''} 
+                ${completed ? styles.completedItem: ''}
             `}
 
             onClick={() => !completed && selectTask(
@@ -38,7 +38,7 @@ function Item(
         >
             <h3>{task}</h3>
             <span>{time}</span>
-            {completed && <span className={style.completed} aria-label='completedTask'></span>}    
+            {completed && <span className={styles.completed} aria-label='completedTask'></span>}    
         </li>
     )
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Button.module.scss';
+import styles from './Button.module.scss';
 
 interface ButtonProps {    
     type?: "button" | "submit" | "reset" | undefined,
@@ -13,7 +13,7 @@ function Button ({type, onClick, children} : ButtonProps) {
         <button 
             onClick={onClick} 
             type={type} 
-            className={style.button}
+            className={styles.button}
         >
             {children}
         </button>

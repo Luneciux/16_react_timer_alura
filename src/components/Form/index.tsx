@@ -3,7 +3,7 @@ import Button from "../Button";
 import { ITask } from "../../types/ITask";
 import {v4 as uuidv4} from 'uuid';
 
-import style from './Form.module.scss';
+import styles from './Form.module.scss';
 
 interface FormProps {
     setTasks: React.Dispatch<React.SetStateAction<Array<ITask>>>,
@@ -36,8 +36,8 @@ function Form ({ setTasks } : FormProps) {
 
 
     return (
-        <form className={style.newTask} onSubmit={addTask}>
-            <div className={style.inputContainer}>
+        <form className={styles.newTask} onSubmit={addTask}>
+            <div className={styles.inputContainer}>
                 <label htmlFor="task">
                     Add some task
                 </label>
@@ -51,7 +51,7 @@ function Form ({ setTasks } : FormProps) {
                     onChange={e => setTask(e.target.value) }
                 />
             </div>
-            <div className={style.inputContainer}>
+            <div className={styles.inputContainer}>
                 <label htmlFor="time">
                     Time
                 </label>

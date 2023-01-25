@@ -1,4 +1,4 @@
-import style from './Clock.module.scss';
+import styles from './Clock.module.scss';
 
 interface ClockProps {
     time: number | undefined
@@ -14,19 +14,19 @@ function Clock ({time = 0} : ClockProps) {
 
     return (
         <>
-            <span className={style.clockNumber}>
+            <span className={styles.clockNumber}>
                 {minDecimal}
             </span>
-            <span className={style.clockNumber}>
+            <span className={styles.clockNumber}>
                 {minUnit}
             </span>
 
-            <span className={style.clockDivisor}>:</span>
+            <span className={styles.clockDivisor}>:</span>
 
-            <span className={style.clockNumber}>
+            <span className={styles.clockNumber}>
                 {secDecimal}
             </span>
-            <span className={style.clockNumber}>
+            <span className={styles.clockNumber}>
                 {secUnit}
             </span>
         </>

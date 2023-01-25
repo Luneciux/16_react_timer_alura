@@ -5,7 +5,7 @@ import Clock from "./Clock";
 
 import calcTime from "../../common/utils/date";
 
-import style from './Timer.module.scss';
+import styles from './Timer.module.scss';
 
 interface TimerProps {
     selected: ITask | undefined,
@@ -32,9 +32,9 @@ function Timer ({selected, closeTask} : TimerProps) {
       }
     
     return (
-        <div className={style.timer}>
-            <p className={style.title}></p>
-            <div className={style.clockWrapper}>
+        <div className={styles.timer}>
+            <p className={styles.title}></p>
+            <div className={styles.clockWrapper}>
                 <Clock time={time}/>
             </div>
             <Button

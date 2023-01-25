@@ -4,7 +4,7 @@ import List from '../components/List';
 import Timer from '../components/Timer';
 import { ITask } from '../types/ITask';
 
-import style from './App.module.scss';
+import styles from './App.module.scss';
 
 function App() {
 
@@ -40,8 +40,8 @@ function App() {
   }
 
   return (
-    <div className={style.AppResizer}> 
-      <div className={style.AppStyle}>
+    <div className={styles.AppResizer}> 
+      <div className={styles.AppStyle}>
 
         <Form 
           setTasks={setTasks}
